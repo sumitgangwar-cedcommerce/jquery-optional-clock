@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:steelblue;
+}
+
+#canvass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(98, 92, 92);
+    min-width: 50%;
+    margin-top: 10%;
+    min-height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+h2,h3{
+    color: aliceblue;
+}
+
+.time{
+    text-align: center;
+    font-size: 80px;
+}
+.date{
+    text-align: center;
+    color: aliceblue;
+}
+button{
+    background-color: steelblue;
+    border: none;
+    height: 8vh;
+    width: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    font-weight: 900;
+    /* box-shadow: 1px 2px 4px rgb(158, 255, 226); */
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.stopwatchDisplay{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
